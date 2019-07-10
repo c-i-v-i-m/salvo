@@ -1,0 +1,1501 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 10
+    m_Resolution: 2
+    m_BakeResolution: 10
+    m_AtlasSize: 512
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 256
+    m_PVRBounces: 2
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVRFilteringMode: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ShowResolutionOverlay: 1
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 1
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &23023296
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 23023297}
+  m_Layer: 0
+  m_Name: PBR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &23023297
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 23023296}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1310487410}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &170076733
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 170076735}
+  - component: {fileID: 170076734}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &170076734
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 170076733}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &170076735
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 170076733}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 500, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &260600954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -856716899, guid: f654ca2983870b74ea8b9a258e509846, type: 3}
+  m_Name: (Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  mValue: 0
+--- !u!1 &409549962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 409549966}
+  - component: {fileID: 409549965}
+  - component: {fileID: 409549964}
+  - component: {fileID: 409549963}
+  - component: {fileID: 409549967}
+  - component: {fileID: 409549968}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 1
+  m_IsActive: 1
+--- !u!65 &409549963
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 409549962}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &409549964
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 409549962}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: a07c7a1ab3c67d84eaa5add99ce1e603, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &409549965
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 409549962}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &409549966
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 409549962}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2.81}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &409549967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 409549962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1240533556, guid: f654ca2983870b74ea8b9a258e509846, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RenderLayerIDToSave: {fileID: 461036546}
+  GeneralVisibilityToSave: {fileID: 1461541183}
+  CameraVisibilityToSave: {fileID: 1623016937}
+  ShadowVisibilityToSave: {fileID: 833217779}
+  RandomColorSeedToSave: {fileID: 260600954}
+  ColorToSave: {fileID: 2049550294}
+  BakingGroupIDToSave: {fileID: 1771506253}
+  BakingUvScaleToSave: {fileID: 2145926902}
+  BakingUvRotationToSave: {fileID: 1305940081}
+  BakingUvTranslationToSave: {fileID: 910470436}
+--- !u!114 &409549968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 409549962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38eef1d10b1d63c4a9fa382927675f0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseMaterial: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  bakedMaterial: {fileID: 2100000, guid: a07c7a1ab3c67d84eaa5add99ce1e603, type: 2}
+--- !u!114 &461036546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -856716899, guid: f654ca2983870b74ea8b9a258e509846, type: 3}
+  m_Name: (Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  mValue: 1
+--- !u!1 &500993183
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 500993185}
+  - component: {fileID: 500993184}
+  m_Layer: 0
+  m_Name: PBR Render Target
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &500993184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 500993183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 466867004, guid: f654ca2983870b74ea8b9a258e509846, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UserCam: {fileID: 0}
+  EnvironmentSun: {fileID: 170076734}
+  EnvironmentSkybox: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  VisibleEnvironmentSun: {fileID: 170076734}
+  VisibleEnvironmentSkybox: {fileID: 10304, guid: 0000000000000000f000000000000000,
+    type: 0}
+  EnvironmentMode: 1
+  VisibleEnvironmentMode: 1
+  CameraMode: 1
+  AutoNodeData:
+  - pinIx: 0
+    data: 0e4f6374616e6553657474696e6773020000000d0000001d0000007f0000000100000000d4000000020000000100000000001042340000000200000001000000000048423800000002000000010000003333334035000000020000000100000019641e42d1000000020000000100000076134e3f230000000200000001000000000000005f000000020000000200000000000000000000008200000001000000008400000002000000010000000000803f740000000200000001000000000000003b0100000200000001000000f90215500c0000000100000001330000000200000001000000bd1b8f3f0800000002000000010000004a92643f0900000002000000010000000000803f0a00000002000000010000000000803f4f0100000300000001000000060000004d0100000200000001000000000000004e01000002000000010000000000803f850000000200000003000000000000000000003f0000803feb0000000200000003000000000000000000000000000000f80000000200000003000000000000000000803f00000000e40000000400000000000000e30000000400000001000000e00000000200000001000000b81e853d3c01000001000000005d00000005000000000000000000803f000000003bdf4f3f0000803fc80000000500000000000000000000000000803f1283403e0000803f0000000000000000
+  - pinIx: 1
+    data: 0e4f6374616e6553657474696e6773020000000e00000012000000e70000000200000003000000de241e3fa712343fac00b4bef600000002000000010000009a9919408a00000002000000010000000000803f78000000020000000100000000000000720000000400000001000000d90000000500000000000000e7b0073eb418843eb3651b3f0000803fe800000005000000000000009a99193f8fc2f53d0ad7a33c0000803fe90000000200000001000000abaaa2404b010000020000000300000091edbc3e21b0b23e8d97ae3e4c0100000200000001000000000000004a01000002000000010000000000a040f00000000500000002000000004f000000010000000100000000000000000d01000002000000010000000000803f3d01000001000000003e01000001000000003f0100000100000000
+  - pinIx: 4
+    data: 0e4f6374616e6553657474696e6773020000006400000003000000c60000000300000002000000000400000002000038010000030000000200000000000000000000003901000003000000020000000000010000000100
+  - pinIx: 5
+    data: 0e4f6374616e6553657474696e6773020000006300000004000000300100000400000003000000310100000200000001000000cdcc4c3e340100000200000001000000000000003501000002000000010000000000803f
+  - pinIx: 6
+    data: 0e4f6374616e6553657474696e67730200000018000000230000006c0000000300000001000000f40100003d0000000400000003000000dd000000030000000100000005000000420000000300000001000000020000001d00000003000000010000000200000090000000020000000100000017b7d1383200000002000000010000009a99993f07000000020000000100000000004040460100000500000002000000000300000001000000017d0100000100000000020000000100000000560000000100000000820100000100000000800100000100000001b30100000400000001000000b20100000800000000000000b101000008000000000000008100000002000000010000009a99993e19000000020000000100000000000000df0000000100000000110100000300000001000000100000000b0100000300000001000000200000000e01000001000000015b01000001000000005d01000002000000010000000ad7a33c5f0100000300000001000000000200005e010000040000000200000061010000020000000100000000000000070100000100000000be01000001000000000a010000030000000100000008000000080100000200000001000000cdcc4c3d7001000002000000030000000000003f0000003f0000003fc001000001000000000000000000000000000000000000000000000000000000000000000000000000
+  - pinIx: 7
+    data: 0e4f6374616e6553657474696e6773020000005a000000040000002a00000001000000005c0000000300000001000000010000005300000001000000004401000004000000000000000000000000000000
+  - pinIx: 8
+    data: 0e4f6374616e6553657474696e67730200000056000000700000001501000001000000009b00000001000000009d00000001000000001401000001000000009800000001000000009a0000000100000000990000000100000000170100000100000000b50000000100000000b70000000100000000b60000000100000000b90000000100000000b80000000100000000c10000000100000000c00000000100000000bd00000001000000006201000001000000007401000001000000007501000001000000007a01000001000000007c01000001000000007b01000001000000007e01000001000000007f01000001000000005a01000001000000008901000001000000008a01000001000000008b01000001000000008c0100000100000000bd01000001000000008e0100000100000000ba0100000100000000bb0100000100000000b40000000100000000890000000100000000a60000000100000000a30000000100000000a50000000100000000940000000100000000ad0100000100000000ae0100000100000000be0000000100000000af0100000100000000b00100000100000000a700000001000000009d0100000100000000a50100000100000000a800000001000000009e0100000100000000a60100000100000000a900000001000000009f0100000100000000a70100000100000000aa0000000100000000a00100000100000000a80100000100000000ab0000000100000000a90100000100000000a10100000100000000ac0000000100000000a20100000100000000aa0100000100000000ad0000000100000000a30100000100000000ab0100000100000000ae0000000100000000a40100000100000000ac0100000100000000c8010000030000000100000006000000d801000003000000010000000a000000c90100000100000000ca0100000100000000d60100000100000000cb0100000100000000cc0100000100000000d70100000100000000cd0100000100000000a10000000300000001000000800000004901000004000000000000001200000001000000017d00000002000000010000000000803f9f0000000100000000c30000000100000000bc0000000100000000180100000100000000c500000001000000000101000002000000010000000000a040b30000000100000000c20000000100000000fa00000002000000010000000000803ff9000000030000000100000001000000bf0000000100000000b100000001000000006d00000002000000010000000000803fb00000000100000000b200000001000000002a0100000100000000130100000100000000af0000000100000000ba0000000100000000bb0000000100000000c40000000100000000950000000100000000070000000200000001000000000040400201000001000000001601000001000000001a01000001000000001b01000001000000001c01000001000000001d01000001000000001e01000001000000001f0100000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - pinIx: 9
+    data: 0e4f6374616e6553657474696e6773020000000f000000170000002d00000002000000010000000000803f49000000020000000100000000000000720100000400000000000000c700000004000000910100000f01000001000000003900000002000000010000000000803f0000000000000000ff00000005000000000000000000803f0000803f0000803f0000803ffc000000020000000100000000000000d000000002000000010000000000803f4a00000002000000010000000000803f8b0000000100000000360100000100000000260000000100000000cf000000020000000100000000000000700000000300000001000000010000000c01000003000000010000000a000000850100000100000000bc01000001000000008401000001000000018801000003000000010000000a0000008701000003000000010000001400000086010000020000000100000000000000000000000000000000000000000000000000000000000000
+  - pinIx: 10
+    data: 0e4f6374616e6553657474696e6773020000003d000000080000007c00000001000000000e00000002000000010000000000803f4000000002000000010000000000803f410000000300000001000000030000003e0000000200000001000000000070413f00000002000000010000006f12833adb000000020000000100000000000000dc000000020000000100000000000040
+  RenderToTextureData: []
+  xmlData: "<?xml version='1.0' encoding='utf-8'?>\n<OCS2 version='5000013'>\n <graph
+    id='1' type='1' name='Root'>\n  <node id='2' type='56' name='PBR Render Target'
+    position='175.95834 75'>\n   <pin name='camera'>\n    <node id='3' type='13'>\n
+    \    <pin name='orthographic'>\n      <node id='4' type='11'>\n       <attr name='value'
+    type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='sensorWidth'>\n
+    \     <node id='5' type='6'>\n       <attr name='value' type='8'>36 0 0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='focalLength'>\n      <node id='6'
+    type='6'>\n       <attr name='value' type='8'>16.441545 0 0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='fstop'>\n      <node id='7' type='6'>\n       <attr
+    name='value' type='8'>0.92072648 0 0</attr>\n      </node>\n     </pin>\n     <pin
+    name='fov'>\n      <node id='8' type='6'>\n       <attr name='value' type='8'>95.181648
+    0 0</attr>\n      </node>\n     </pin>\n     <pin name='scale'>\n      <node id='9'
+    type='6'>\n       <attr name='value' type='8'>2.1895754 0 0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='distortion'>\n      <node id='10' type='6'>\n       <attr
+    name='value' type='8'>0 0 0</attr>\n      </node>\n     </pin>\n     <pin name='lensShift'>\n
+    \     <node id='11' type='6'>\n       <attr name='value' type='8'>0 0 0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='perspectiveCorrection'>\n      <node
+    id='12' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='pixelAspectRatio'>\n      <node id='13' type='6'>\n
+    \      <attr name='value' type='8'>1 0 0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='nearClipDepth'>\n      <node id='14' type='6'>\n       <attr name='value'
+    type='8'>0.073683433 0 0</attr>\n      </node>\n     </pin>\n     <pin name='farClipDepth'>\n
+    \     <node id='15' type='6'>\n       <attr name='value' type='8'>14736.687 0
+    0</attr>\n      </node>\n     </pin>\n     <pin name='autofocus'>\n      <node
+    id='16' type='11'>\n       <attr name='value' type='1'>1</attr>\n      </node>\n
+    \    </pin>\n     <pin name='focalDepth'>\n      <node id='17' type='6'>\n       <attr
+    name='value' type='8'>1.118034 0 0</attr>\n      </node>\n     </pin>\n     <pin
+    name='aperture'>\n      <node id='18' type='6'>\n       <attr name='value' type='8'>0.89285719
+    0 0</attr>\n      </node>\n     </pin>\n     <pin name='apertureAspectRatio'>\n
+    \     <node id='19' type='6'>\n       <attr name='value' type='8'>1 0 0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='aperture_edge'>\n      <node id='20'
+    type='6'>\n       <attr name='value' type='8'>1 0 0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='bokehSidecount'>\n      <node id='21' type='9'>\n       <attr
+    name='value' type='4'>6 0 0</attr>\n      </node>\n     </pin>\n     <pin name='bokehRotation'>\n
+    \     <node id='22' type='6'>\n       <attr name='value' type='8'>0 0 0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='bokehRoundedness'>\n      <node id='23'
+    type='6'>\n       <attr name='value' type='8'>1 0 0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='pos'>\n      <node id='24' type='6'>\n       <attr name='value'
+    type='8'>6.7328091 1.95067 0.91066825</attr>\n      </node>\n     </pin>\n     <pin
+    name='target'>\n      <node id='25' type='6'>\n       <attr name='value' type='8'>5.798151
+    1.686233 0.67299676</attr>\n      </node>\n     </pin>\n     <pin name='up'>\n
+    \     <node id='26' type='6'>\n       <attr name='value' type='8'>-0.25628135
+    0.96440309 -0.065167382</attr>\n      </node>\n     </pin>\n     <pin name='stereoOutput'>\n
+    \     <node id='27' type='57'>\n       <attr name='value' type='2'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='stereoMode'>\n      <node id='28'
+    type='57'>\n       <attr name='value' type='2'>1</attr>\n      </node>\n     </pin>\n
+    \    <pin name='stereodist'>\n      <node id='29' type='6'>\n       <attr name='value'
+    type='8'>0.064999998 0 0</attr>\n      </node>\n     </pin>\n     <pin name='stereoSwitchEyes'>\n
+    \     <node id='30' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='leftFilter'>\n      <node id='31'
+    type='33'>\n       <attr name='value' type='8'>1 0 0.81199998</attr>\n      </node>\n
+    \    </pin>\n     <pin name='rightFilter'>\n      <node id='32' type='33'>\n       <attr
+    name='value' type='8'>0 1 0.18799999</attr>\n      </node>\n     </pin>\n    </node>\n
+    \  </pin>\n   <pin name='environment'>\n    <node id='33' type='14'>\n     <pin
+    name='sundir'>\n      <node id='34' type='6'>\n       <attr name='value' type='8'>-0.32139379
+    0.76604444 -0.55667049</attr>\n      </node>\n     </pin>\n     <pin name='turbidity'>\n
+    \     <node id='35' type='6'>\n       <attr name='value' type='8'>2.4000001 0
+    0</attr>\n      </node>\n     </pin>\n     <pin name='power'>\n      <node id='36'
+    type='6'>\n       <attr name='value' type='8'>1 0 0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='northoffset'>\n      <node id='37' type='6'>\n       <attr name='value'
+    type='8'>0 0 0</attr>\n      </node>\n     </pin>\n     <pin name='model'>\n      <node
+    id='38' type='57'>\n       <attr name='value' type='2'>1</attr>\n      </node>\n
+    \    </pin>\n     <pin name='sky_color'>\n      <node id='39' type='33'>\n       <attr
+    name='value' type='8'>0.13251077 0.25800097 0.60702056</attr>\n      </node>\n
+    \    </pin>\n     <pin name='sunset_color'>\n      <node id='40' type='33'>\n
+    \      <attr name='value' type='8'>0.60000002 0.12 0.02</attr>\n      </node>\n
+    \    </pin>\n     <pin name='sun_size'>\n      <node id='41' type='6'>\n       <attr
+    name='value' type='8'>5.0833335 0 0</attr>\n      </node>\n     </pin>\n     <pin
+    name='groundColor'>\n      <node id='42' type='6'>\n       <attr name='value'
+    type='8'>0.36899999 0.34900001 0.34099999</attr>\n      </node>\n     </pin>\n
+    \    <pin name='groundStartAngle'>\n      <node id='43' type='6'>\n       <attr
+    name='value' type='8'>0 0 0</attr>\n      </node>\n     </pin>\n     <pin name='groundBlendAngle'>\n
+    \     <node id='44' type='6'>\n       <attr name='value' type='8'>5 0 0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='importance_sampling'>\n      <node
+    id='45' type='11'>\n       <attr name='value' type='1'>1</attr>\n      </node>\n
+    \    </pin>\n     <pin name='mediumRadius'>\n      <node id='46' type='6'>\n       <attr
+    name='value' type='8'>1 0 0</attr>\n      </node>\n     </pin>\n    </node>\n
+    \  </pin>\n   <pin name='filmSettings'>\n    <node id='47' type='100'>\n     <pin
+    name='resolution'>\n      <node id='48' type='12'>\n       <attr name='value'
+    type='4'>1024 512 0</attr>\n       <attr name='preset' type='2'>403</attr>\n       <attr
+    name='aspectRatio' type='6'>0</attr>\n      </node>\n     </pin>\n     <pin name='regionOffset'>\n
+    \     <node id='49' type='9'>\n       <attr name='value' type='4'>0 0 0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='regionSize'>\n      <node id='50'
+    type='9'>\n       <attr name='value' type='4'>65536 65536 0</attr>\n      </node>\n
+    \    </pin>\n    </node>\n   </pin>\n   <pin name='animation'>\n    <node id='51'
+    type='99'>\n     <pin name='shutterAlignment'>\n      <node id='52' type='57'>\n
+    \      <attr name='value' type='2'>3</attr>\n      </node>\n     </pin>\n     <pin
+    name='shutterTime'>\n      <node id='53' type='6'>\n       <attr name='value'
+    type='8'>0.2 0 0</attr>\n      </node>\n     </pin>\n     <pin name='subFrameStart'>\n
+    \     <node id='54' type='6'>\n       <attr name='value' type='8'>0 0 0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='subFrameEnd'>\n      <node id='55'
+    type='6'>\n       <attr name='value' type='8'>1 0 0</attr>\n      </node>\n     </pin>\n
+    \   </node>\n   </pin>\n   <pin name='kernel'>\n    <node id='56' type='24'>\n
+    \    <pin name='maxsamples'>\n      <node id='57' type='9'>\n       <attr name='value'
+    type='4'>500 0 0</attr>\n      </node>\n     </pin>\n     <pin name='GI_mode'>\n
+    \     <node id='58' type='57'>\n       <attr name='value' type='2'>3</attr>\n
+    \     </node>\n     </pin>\n     <pin name='speculardepth'>\n      <node id='59'
+    type='9'>\n       <attr name='value' type='4'>5 0 0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='glossydepth'>\n      <node id='60' type='9'>\n       <attr name='value'
+    type='4'>2 0 0</attr>\n      </node>\n     </pin>\n     <pin name='diffusedepth'>\n
+    \     <node id='61' type='9'>\n       <attr name='value' type='4'>2 0 0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='rayepsilon'>\n      <node id='62'
+    type='6'>\n       <attr name='value' type='8'>9.9999997e-05 0 0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='filtersize'>\n      <node id='63' type='6'>\n       <attr
+    name='value' type='8'>1.2 0 0</attr>\n      </node>\n     </pin>\n     <pin name='aodist'>\n
+    \     <node id='64' type='6'>\n       <attr name='value' type='8'>3 0 0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='alphashadows'>\n      <node id='65'
+    type='11'>\n       <attr name='value' type='1'>1</attr>\n      </node>\n     </pin>\n
+    \    <pin name='irradiance'>\n      <node id='66' type='11'>\n       <attr name='value'
+    type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='alphachannel'>\n
+    \     <node id='67' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='keep_environment'>\n      <node id='68'
+    type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='aiLight'>\n      <node id='69' type='11'>\n       <attr name='value'
+    type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='aiLightUpdate'>\n
+    \     <node id='70' type='11'>\n       <attr name='value' type='1'>1</attr>\n
+    \     </node>\n     </pin>\n     <pin name='globalLightIdMaskAction'>\n      <node
+    id='71' type='57'>\n       <attr name='value' type='2'>1</attr>\n      </node>\n
+    \    </pin>\n     <pin name='globalLightIdMask'>\n      <node id='72' type='132'>\n
+    \      <attr name='value' type='2'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='lightPassMask'>\n      <node id='73' type='132'>\n       <attr name='value'
+    type='2'>0</attr>\n      </node>\n     </pin>\n     <pin name='pathTermPower'>\n
+    \     <node id='74' type='6'>\n       <attr name='value' type='8'>0.30000001 0
+    0</attr>\n      </node>\n     </pin>\n     <pin name='coherentRatio'>\n      <node
+    id='75' type='6'>\n       <attr name='value' type='8'>0 0 0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='staticNoise'>\n      <node id='76' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='parallelSamples'>\n
+    \     <node id='77' type='9'>\n       <attr name='value' type='4'>16 0 0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='maxTileSamples'>\n      <node id='78'
+    type='9'>\n       <attr name='value' type='4'>32 0 0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='minimizeNetTraffic'>\n      <node id='79' type='11'>\n       <attr
+    name='value' type='1'>1</attr>\n      </node>\n     </pin>\n     <pin name='adaptiveSampling'>\n
+    \     <node id='80' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='noiseThreshold'>\n      <node id='81'
+    type='6'>\n       <attr name='value' type='8'>0.02 0 0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='minAdaptiveSamples'>\n      <node id='82' type='9'>\n
+    \      <attr name='value' type='4'>512 0 0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='adaptiveSamplingPixelGroup'>\n      <node id='83' type='57'>\n
+    \      <attr name='value' type='2'>2</attr>\n      </node>\n     </pin>\n     <pin
+    name='adaptiveSamplingExposure'>\n      <node id='84' type='6'>\n       <attr
+    name='value' type='8'>0 0 0</attr>\n      </node>\n     </pin>\n     <pin name='deepEnable'>\n
+    \     <node id='85' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='deepEnablePasses'>\n      <node id='86'
+    type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='maxDepthSamples'>\n      <node id='87' type='9'>\n       <attr
+    name='value' type='4'>8 0 0</attr>\n      </node>\n     </pin>\n     <pin name='depthTolerance'>\n
+    \     <node id='88' type='6'>\n       <attr name='value' type='8'>0.050000001
+    0 0</attr>\n      </node>\n     </pin>\n     <pin name='toonShadowAmbient'>\n
+    \     <node id='89' type='6'>\n       <attr name='value' type='8'>0.5 0.5 0.5</attr>\n
+    \     </node>\n     </pin>\n     <pin name='oldVolumeBehavior'>\n      <node id='90'
+    type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n
+    \   </node>\n   </pin>\n   <pin name='renderLayer'>\n    <node id='91' type='90'>\n
+    \    <pin name='enabled'>\n      <node id='92' type='11'>\n       <attr name='value'
+    type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='layerId'>\n      <node
+    id='93' type='9'>\n       <attr name='value' type='4'>1 0 0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='invert'>\n      <node id='94' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='mode'>\n
+    \     <node id='95' type='57'>\n       <attr name='value' type='2'>0</attr>\n
+    \     </node>\n     </pin>\n    </node>\n   </pin>\n   <pin name='renderPasses'>\n
+    \   <node id='96' type='86'>\n     <pin name='renderPassesRaw'>\n      <node id='97'
+    type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='renderPassEmit'>\n      <node id='98' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassEnvironment'>\n
+    \     <node id='99' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassDiffuse'>\n      <node id='100'
+    type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='renderPassDiffuseDirect'>\n      <node id='101' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassDiffuseIndirect'>\n
+    \     <node id='102' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassDiffuseFilter'>\n      <node
+    id='103' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassReflection'>\n      <node id='104' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassReflectionDirect'>\n      <node id='105' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassReflectionIndirect'>\n
+    \     <node id='106' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassReflectionFilter'>\n      <node
+    id='107' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassRefraction'>\n      <node id='108' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassRefractionFilter'>\n      <node id='109' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassTransmission'>\n
+    \     <node id='110' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassTransmissionFilter'>\n      <node
+    id='111' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassSSS'>\n      <node id='112' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassShadow'>\n      <node id='113' type='11'>\n       <attr name='value'
+    type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassIrradiance'>\n
+    \     <node id='114' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassLightDirection'>\n      <node
+    id='115' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassVolume'>\n      <node id='116' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassVolumeMask'>\n      <node id='117' type='11'>\n       <attr name='value'
+    type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassVolumeEmission'>\n
+    \     <node id='118' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassVolumeZDepthFront'>\n      <node
+    id='119' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassVolumeZDepthBack'>\n      <node id='120'
+    type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='renderPassNoise'>\n      <node id='121' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassDiffuseDirectDenoiserOutput'>\n
+    \     <node id='122' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassDiffuseIndirectDenoiserOutput'>\n
+    \     <node id='123' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassReflectionDirectDenoiserOutput'>\n
+    \     <node id='124' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassReflectionIndirectDenoiserOutput'>\n
+    \     <node id='125' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassEmissionDenoiserOutput'>\n
+    \     <node id='126' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassRemainderDenoiserOutput'>\n
+    \     <node id='127' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassVolumeDenoiserOutput'>\n
+    \     <node id='128' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassVolumeEmissionDenoiserOutput'>\n
+    \     <node id='129' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassPostProcessing'>\n      <node
+    id='130' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='postProcEnvironment'>\n      <node id='131' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassLayerShadows'>\n      <node id='132' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassLayerBlackShadows'>\n
+    \     <node id='133' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassLayerReflections'>\n      <node
+    id='134' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassAmbientLight'>\n      <node id='135' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassAmbientLightDirect'>\n      <node id='136' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassAmbientLightIndirect'>\n
+    \     <node id='137' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassSunLight'>\n      <node
+    id='138' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassSunLightDirect'>\n      <node id='139'
+    type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='renderPassSunLightIndirect'>\n      <node id='140' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassLight1'>\n      <node id='141' type='11'>\n       <attr name='value'
+    type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassLight1Direct'>\n
+    \     <node id='142' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassLight1Indirect'>\n      <node
+    id='143' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassLight2'>\n      <node id='144' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassLight2Direct'>\n      <node id='145' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassLight2Indirect'>\n
+    \     <node id='146' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassLight3'>\n      <node id='147'
+    type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='renderPassLight3Direct'>\n      <node id='148' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassLight3Indirect'>\n
+    \     <node id='149' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassLight4'>\n      <node id='150'
+    type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='renderPassLight4Direct'>\n      <node id='151' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassLight4Indirect'>\n
+    \     <node id='152' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassLight5'>\n      <node id='153'
+    type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='renderPassLight5Indirect'>\n      <node id='154' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassLight5Direct'>\n      <node id='155' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassLight6'>\n
+    \     <node id='156' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassLight6Direct'>\n      <node
+    id='157' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassLight6Indirect'>\n      <node id='158'
+    type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='renderPassLight7'>\n      <node id='159' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassLight7Direct'>\n
+    \     <node id='160' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassLight7Indirect'>\n      <node
+    id='161' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassLight8'>\n      <node id='162' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassLight8Direct'>\n      <node id='163' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassLight8Indirect'>\n
+    \     <node id='164' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassCryptomatteCount'>\n      <node
+    id='165' type='9'>\n       <attr name='value' type='4'>6 0 0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassCryptomatteSeedFactor'>\n      <node id='166'
+    type='9'>\n       <attr name='value' type='4'>10 0 0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='renderPassCryptomatteInstance'>\n      <node id='167' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassCryptomatteMaterialNodeName'>\n      <node id='168' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassCryptomatteMaterialNode'>\n      <node id='169' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassCryptomatteMaterialPinName'>\n
+    \     <node id='170' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassCryptomatteObjectNodeName'>\n
+    \     <node id='171' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassCryptomatteObjectNode'>\n
+    \     <node id='172' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassCryptomatteObjectPinName'>\n
+    \     <node id='173' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassInfoMaxSamples'>\n      <node
+    id='174' type='9'>\n       <attr name='value' type='4'>128 0 0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='samplingMode'>\n      <node id='175' type='57'>\n
+    \      <attr name='value' type='2'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='bump'>\n      <node id='176' type='11'>\n       <attr name='value' type='1'>1</attr>\n
+    \     </node>\n     </pin>\n     <pin name='opacity'>\n      <node id='177' type='6'>\n
+    \      <attr name='value' type='8'>1 0 0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='renderPassGeometricNormal'>\n      <node id='178' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassVertexNormal'>\n      <node id='179' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassShadingNormal'>\n
+    \     <node id='180' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassTangentNormal'>\n      <node
+    id='181' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassZDepth'>\n      <node id='182' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='Z_depth_max'>\n      <node id='183' type='6'>\n       <attr name='value'
+    type='8'>5 0 0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassPosition'>\n
+    \     <node id='184' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassUvCoord'>\n      <node id='185'
+    type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='UV_max'>\n      <node id='186' type='6'>\n       <attr name='value'
+    type='8'>1 0 0</attr>\n      </node>\n     </pin>\n     <pin name='uvSet'>\n      <node
+    id='187' type='9'>\n       <attr name='value' type='4'>1 0 0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassTangentU'>\n      <node id='188' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassMotionVector'>\n      <node id='189' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='maxSpeed'>\n
+    \     <node id='190' type='6'>\n       <attr name='value' type='8'>1 0 0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassMaterialId'>\n      <node
+    id='191' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassObjectId'>\n      <node id='192' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassObjectLayerColor'>\n      <node id='193' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassBakingGroupId'>\n
+    \     <node id='194' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassLightPassId'>\n      <node
+    id='195' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassRenderLayerId'>\n      <node id='196' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassRenderLayerMask'>\n      <node id='197' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassWireframe'>\n
+    \     <node id='198' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassAmbientOcclusion'>\n      <node
+    id='199' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='aodist'>\n      <node id='200' type='6'>\n       <attr
+    name='value' type='8'>3 0 0</attr>\n      </node>\n     </pin>\n     <pin name='aoAlphaShadows'>\n
+    \     <node id='201' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassOpacity'>\n      <node id='202'
+    type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='renderPassRoughness'>\n      <node id='203' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassIor'>\n
+    \     <node id='204' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassDiffuseFilterInfo'>\n      <node
+    id='205' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassReflectionFilterInfo'>\n      <node id='206'
+    type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='renderPassRefractionFilterInfo'>\n      <node id='207' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassTransmissionFilterInfo'>\n      <node id='208' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n    </node>\n   </pin>\n
+    \  <pin name='imager'>\n    <node id='209' type='15'>\n     <pin name='exposure'>\n
+    \     <node id='210' type='6'>\n       <attr name='value' type='8'>1 0 0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='highlightCompression'>\n      <node
+    id='211' type='6'>\n       <attr name='value' type='8'>0 0 0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='order'>\n      <node id='212' type='57'>\n       <attr
+    name='value' type='2'>0</attr>\n      </node>\n     </pin>\n     <pin name='response'>\n
+    \     <node id='213' type='57'>\n       <attr name='value' type='2'>401</attr>\n
+    \     </node>\n     </pin>\n     <pin name='neutralResponse'>\n      <node id='214'
+    type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='gamma'>\n      <node id='215' type='6'>\n       <attr name='value'
+    type='8'>1 0 0</attr>\n      </node>\n     </pin>\n     <pin name='white_balance'>\n
+    \     <node id='216' type='33'>\n       <attr name='value' type='8'>1 1 1</attr>\n
+    \     </node>\n     </pin>\n     <pin name='vignetting'>\n      <node id='217'
+    type='6'>\n       <attr name='value' type='8'>0 0 0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='saturation'>\n      <node id='218' type='6'>\n       <attr name='value'
+    type='8'>1 0 0</attr>\n      </node>\n     </pin>\n     <pin name='hotpixel_removal'>\n
+    \     <node id='219' type='6'>\n       <attr name='value' type='8'>1 0 0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='premultiplied_alpha'>\n      <node
+    id='220' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='disablePartialAlpha'>\n      <node id='221' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='dithering'>\n      <node id='222' type='11'>\n       <attr name='value'
+    type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='saturate_to_white'>\n
+    \     <node id='223' type='6'>\n       <attr name='value' type='8'>0 0 0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='min_display_samples'>\n      <node
+    id='224' type='9'>\n       <attr name='value' type='4'>1 0 0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='maxTonemapInterval'>\n      <node id='225' type='9'>\n
+    \      <attr name='value' type='4'>10 0 0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='denoiser'>\n      <node id='226' type='11'>\n       <attr name='value'
+    type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='denoiseVolume'>\n
+    \     <node id='227' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='denoiserOnce'>\n      <node id='228'
+    type='11'>\n       <attr name='value' type='1'>1</attr>\n      </node>\n     </pin>\n
+    \    <pin name='minDenoiserSamples'>\n      <node id='229' type='9'>\n       <attr
+    name='value' type='4'>10 0 0</attr>\n      </node>\n     </pin>\n     <pin name='maxDenoiserInterval'>\n
+    \     <node id='230' type='9'>\n       <attr name='value' type='4'>20 0 0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='denoiserOriginalBlend'>\n      <node
+    id='231' type='6'>\n       <attr name='value' type='8'>0 0 0</attr>\n      </node>\n
+    \    </pin>\n    </node>\n   </pin>\n   <pin name='postproc'>\n    <node id='232'
+    type='61'>\n     <pin name='on_off'>\n      <node id='233' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='bloom_power'>\n
+    \     <node id='234' type='6'>\n       <attr name='value' type='8'>1 0 0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='glare_power'>\n      <node id='235'
+    type='6'>\n       <attr name='value' type='8'>1 0 0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='glare_ray_amount'>\n      <node id='236' type='9'>\n       <attr
+    name='value' type='4'>3 0 0</attr>\n      </node>\n     </pin>\n     <pin name='glare_angle'>\n
+    \     <node id='237' type='6'>\n       <attr name='value' type='8'>15 0 0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='glare_blur'>\n      <node id='238'
+    type='6'>\n       <attr name='value' type='8'>0.001 0 0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='spectral_intensity'>\n      <node id='239' type='6'>\n
+    \      <attr name='value' type='8'>0 0 0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='spectral_shift'>\n      <node id='240' type='6'>\n       <attr
+    name='value' type='8'>2 0 0</attr>\n      </node>\n     </pin>\n    </node>\n
+    \  </pin>\n  </node>\n </graph>\n</OCS2>\n"
+--- !u!4 &500993185
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 500993183}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &534669902
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534669905}
+  - component: {fileID: 534669904}
+  - component: {fileID: 534669903}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &534669903
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 534669902}
+  m_Enabled: 1
+--- !u!20 &534669904
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 534669902}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &534669905
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 534669902}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &833217779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1567694750, guid: f654ca2983870b74ea8b9a258e509846, type: 3}
+  m_Name: (Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  mValue: 1
+--- !u!114 &910470436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -389710016, guid: f654ca2983870b74ea8b9a258e509846, type: 3}
+  m_Name: (Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  mValue: {x: 0, y: 0}
+--- !u!114 &1305940081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1109777992, guid: f654ca2983870b74ea8b9a258e509846, type: 3}
+  m_Name: (Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  mValue: -0
+--- !u!1 &1310487409
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1310487410}
+  - component: {fileID: 1310487411}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1310487410
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1310487409}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2.81}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 23023297}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1310487411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1310487409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 466867004, guid: f654ca2983870b74ea8b9a258e509846, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UserCam: {fileID: 0}
+  EnvironmentSun: {fileID: 170076734}
+  EnvironmentSkybox: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  VisibleEnvironmentSun: {fileID: 170076734}
+  VisibleEnvironmentSkybox: {fileID: 10304, guid: 0000000000000000f000000000000000,
+    type: 0}
+  EnvironmentMode: 1
+  VisibleEnvironmentMode: 1
+  CameraMode: 1
+  AutoNodeData:
+  - pinIx: 0
+    data: 0e4f6374616e6553657474696e6773020000005e0000000a00000006010000030000000100000002000000f900000003000000010000000100000005010000010000000010010000030000000100000004000000f200000002000000010000000000003f20010000020000000200000000000000000000002101000002000000020000000000803f0000803f040100000100000000850000000200000003000000000000000000000000000000030100000100000001
+  - pinIx: 1
+    data: 0e4f6374616e6553657474696e6773020000000e00000012000000e70000000200000003000000de241e3fa712343fac00b4bef600000002000000010000009a9919408a00000002000000010000000000803f78000000020000000100000000000000720000000400000001000000d90000000500000000000000e7b0073eb418843eb3651b3f0000803fe800000005000000000000009a99193f8fc2f53d0ad7a33c0000803fe90000000200000001000000abaaa2404b010000020000000300000091edbc3e21b0b23e8d97ae3e4c0100000200000001000000000000004a01000002000000010000000000a040f00000000500000002000000004f000000010000000100000000000000000d01000002000000010000000000803f3d01000001000000003e01000001000000003f0100000100000000
+  - pinIx: 4
+    data: 0e4f6374616e6553657474696e6773020000006400000003000000c60000000300000002000000000800000008000038010000030000000200000000000000000000003901000003000000020000000000010000000100
+  - pinIx: 5
+    data: 0e4f6374616e6553657474696e6773020000006300000004000000300100000400000003000000310100000200000001000000cdcc4c3e340100000200000001000000000000003501000002000000010000000000803f
+  - pinIx: 6
+    data: 0e4f6374616e6553657474696e67730200000018000000230000006c0000000300000001000000f40100003d0000000400000003000000dd000000030000000100000005000000420000000300000001000000020000001d00000003000000010000000200000090000000020000000100000017b7d1383200000002000000010000009a99993f07000000020000000100000000004040460100000500000002000000000300000001000000017d0100000100000000020000000100000000560000000100000000820100000100000000800100000100000001b30100000400000001000000b20100000800000000000000b101000008000000000000008100000002000000010000009a99993e19000000020000000100000000000000df0000000100000000110100000300000001000000100000000b0100000300000001000000200000000e01000001000000015b01000001000000005d01000002000000010000000ad7a33c5f0100000300000001000000000200005e010000040000000200000061010000020000000100000000000000070100000100000000be01000001000000000a010000030000000100000008000000080100000200000001000000cdcc4c3d7001000002000000030000000000003f0000003f0000003fc001000001000000000000000000000000000000000000000000000000000000000000000000000000
+  - pinIx: 7
+    data: 0e4f6374616e6553657474696e6773020000005a000000040000002a00000001000000005c0000000300000001000000010000005300000001000000004401000004000000000000000000000000000000
+  - pinIx: 8
+    data: 0e4f6374616e6553657474696e67730200000056000000700000001501000001000000009b00000001000000009d00000001000000001401000001000000009800000001000000009a0000000100000000990000000100000000170100000100000000b50000000100000000b70000000100000000b60000000100000000b90000000100000000b80000000100000000c10000000100000000c00000000100000000bd00000001000000006201000001000000007401000001000000007501000001000000007a01000001000000007c01000001000000007b01000001000000007e01000001000000007f01000001000000005a01000001000000008901000001000000008a01000001000000008b01000001000000008c0100000100000000bd01000001000000008e0100000100000000ba0100000100000000bb0100000100000000b40000000100000000890000000100000000a60000000100000000a30000000100000000a50000000100000000940000000100000000ad0100000100000000ae0100000100000000be0000000100000000af0100000100000000b00100000100000000a700000001000000009d0100000100000000a50100000100000000a800000001000000009e0100000100000000a60100000100000000a900000001000000009f0100000100000000a70100000100000000aa0000000100000000a00100000100000000a80100000100000000ab0000000100000000a90100000100000000a10100000100000000ac0000000100000000a20100000100000000aa0100000100000000ad0000000100000000a30100000100000000ab0100000100000000ae0000000100000000a40100000100000000ac0100000100000000c8010000030000000100000006000000d801000003000000010000000a000000c90100000100000000ca0100000100000000d60100000100000000cb0100000100000000cc0100000100000000d70100000100000000cd0100000100000000a10000000300000001000000800000004901000004000000000000001200000001000000017d00000002000000010000000000803f9f0000000100000000c30000000100000000bc0000000100000000180100000100000000c500000001000000000101000002000000010000000000a040b30000000100000000c20000000100000000fa00000002000000010000000000803ff9000000030000000100000001000000bf0000000100000000b100000001000000006d00000002000000010000000000803fb00000000100000000b200000001000000002a0100000100000000130100000100000000af0000000100000000ba0000000100000000bb0000000100000000c40000000100000000950000000100000000070000000200000001000000000040400201000001000000001601000001000000001a01000001000000001b01000001000000001c01000001000000001d01000001000000001e01000001000000001f0100000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - pinIx: 9
+    data: 0e4f6374616e6553657474696e6773020000000f000000170000002d00000002000000010000000000803f49000000020000000100000000000000720100000400000000000000c700000004000000910100000f01000001000000003900000002000000010000000000803f0000000000000000ff00000005000000000000000000803f0000803f0000803f0000803ffc000000020000000100000000000000d000000002000000010000000000803f4a00000002000000010000000000803f8b0000000100000000360100000100000000260000000100000000cf000000020000000100000000000000700000000300000001000000010000000c01000003000000010000000a000000850100000100000000bc01000001000000008401000001000000018801000003000000010000000a0000008701000003000000010000001400000086010000020000000100000000000000000000000000000000000000000000000000000000000000
+  - pinIx: 10
+    data: 0e4f6374616e6553657474696e6773020000003d000000080000007c00000001000000000e00000002000000010000000000803f4000000002000000010000000000803f410000000300000001000000030000003e0000000200000001000000000070413f00000002000000010000006f12833adb000000020000000100000000000000dc000000020000000100000000000040
+  RenderToTextureData: []
+  xmlData: "<?xml version='1.0' encoding='utf-8'?>\n<OCS2 version='5000013'>\n <graph
+    id='1' type='1' name='Root'>\n  <node id='2' type='56' name='Cube' position='0
+    0'>\n   <pin name='camera'>\n    <node id='3' type='94'>\n     <pin name='bakingGroupId'>\n
+    \     <node id='4' type='9'>\n       <attr name='value' type='4'>2 0 0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='uvSet'>\n      <node id='5' type='9'>\n
+    \      <attr name='value' type='4'>1 0 0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='bakeOutwards'>\n      <node id='6' type='11'>\n       <attr name='value'
+    type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='padding'>\n      <node
+    id='7' type='9'>\n       <attr name='value' type='4'>4 0 0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='tolerance'>\n      <node id='8' type='6'>\n       <attr
+    name='value' type='8'>0.5 0 0</attr>\n      </node>\n     </pin>\n     <pin name='bakingUvBoxMin'>\n
+    \     <node id='9' type='6'>\n       <attr name='value' type='8'>0 0 0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='bakingUvBoxSize'>\n      <node id='10'
+    type='6'>\n       <attr name='value' type='8'>1 1 0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='bakeFromPosition'>\n      <node id='11' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='pos'>\n
+    \     <node id='12' type='6'>\n       <attr name='value' type='8'>0 0.5 1</attr>\n
+    \     </node>\n     </pin>\n     <pin name='bakeBackfaceCulling'>\n      <node
+    id='13' type='11'>\n       <attr name='value' type='1'>1</attr>\n      </node>\n
+    \    </pin>\n    </node>\n   </pin>\n   <pin name='environment'>\n    <node id='14'
+    type='14'>\n     <pin name='sundir'>\n      <node id='15' type='6'>\n       <attr
+    name='value' type='8'>0.61775005 0.70340961 -0.35156763</attr>\n      </node>\n
+    \    </pin>\n     <pin name='turbidity'>\n      <node id='16' type='6'>\n       <attr
+    name='value' type='8'>2.4000001 0 0</attr>\n      </node>\n     </pin>\n     <pin
+    name='power'>\n      <node id='17' type='6'>\n       <attr name='value' type='8'>1
+    0 0</attr>\n      </node>\n     </pin>\n     <pin name='northoffset'>\n      <node
+    id='18' type='6'>\n       <attr name='value' type='8'>0 0 0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='model'>\n      <node id='19' type='57'>\n       <attr
+    name='value' type='2'>1</attr>\n      </node>\n     </pin>\n     <pin name='sky_color'>\n
+    \     <node id='20' type='33'>\n       <attr name='value' type='8'>0.13251077
+    0.25800097 0.60702056</attr>\n      </node>\n     </pin>\n     <pin name='sunset_color'>\n
+    \     <node id='21' type='33'>\n       <attr name='value' type='8'>0.60000002
+    0.12 0.02</attr>\n      </node>\n     </pin>\n     <pin name='sun_size'>\n      <node
+    id='22' type='6'>\n       <attr name='value' type='8'>5.0833335 0 0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='groundColor'>\n      <node id='23' type='6'>\n       <attr
+    name='value' type='8'>0.36899999 0.34900001 0.34099999</attr>\n      </node>\n
+    \    </pin>\n     <pin name='groundStartAngle'>\n      <node id='24' type='6'>\n
+    \      <attr name='value' type='8'>0 0 0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='groundBlendAngle'>\n      <node id='25' type='6'>\n       <attr
+    name='value' type='8'>5 0 0</attr>\n      </node>\n     </pin>\n     <pin name='importance_sampling'>\n
+    \     <node id='26' type='11'>\n       <attr name='value' type='1'>1</attr>\n
+    \     </node>\n     </pin>\n     <pin name='mediumRadius'>\n      <node id='27'
+    type='6'>\n       <attr name='value' type='8'>1 0 0</attr>\n      </node>\n     </pin>\n
+    \   </node>\n   </pin>\n   <pin name='filmSettings'>\n    <node id='28' type='100'>\n
+    \    <pin name='resolution'>\n      <node id='29' type='12'>\n       <attr name='value'
+    type='4'>2048 2048 0</attr>\n       <attr name='preset' type='2'>403</attr>\n
+    \      <attr name='aspectRatio' type='6'>0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='regionOffset'>\n      <node id='30' type='9'>\n       <attr name='value'
+    type='4'>0 0 0</attr>\n      </node>\n     </pin>\n     <pin name='regionSize'>\n
+    \     <node id='31' type='9'>\n       <attr name='value' type='4'>65536 65536
+    0</attr>\n      </node>\n     </pin>\n    </node>\n   </pin>\n   <pin name='animation'>\n
+    \   <node id='32' type='99'>\n     <pin name='shutterAlignment'>\n      <node
+    id='33' type='57'>\n       <attr name='value' type='2'>3</attr>\n      </node>\n
+    \    </pin>\n     <pin name='shutterTime'>\n      <node id='34' type='6'>\n       <attr
+    name='value' type='8'>0.2 0 0</attr>\n      </node>\n     </pin>\n     <pin name='subFrameStart'>\n
+    \     <node id='35' type='6'>\n       <attr name='value' type='8'>0 0 0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='subFrameEnd'>\n      <node id='36'
+    type='6'>\n       <attr name='value' type='8'>1 0 0</attr>\n      </node>\n     </pin>\n
+    \   </node>\n   </pin>\n   <pin name='kernel'>\n    <node id='37' type='24'>\n
+    \    <pin name='maxsamples'>\n      <node id='38' type='9'>\n       <attr name='value'
+    type='4'>500 0 0</attr>\n      </node>\n     </pin>\n     <pin name='GI_mode'>\n
+    \     <node id='39' type='57'>\n       <attr name='value' type='2'>3</attr>\n
+    \     </node>\n     </pin>\n     <pin name='speculardepth'>\n      <node id='40'
+    type='9'>\n       <attr name='value' type='4'>5 0 0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='glossydepth'>\n      <node id='41' type='9'>\n       <attr name='value'
+    type='4'>2 0 0</attr>\n      </node>\n     </pin>\n     <pin name='diffusedepth'>\n
+    \     <node id='42' type='9'>\n       <attr name='value' type='4'>2 0 0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='rayepsilon'>\n      <node id='43'
+    type='6'>\n       <attr name='value' type='8'>9.9999997e-05 0 0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='filtersize'>\n      <node id='44' type='6'>\n       <attr
+    name='value' type='8'>1.2 0 0</attr>\n      </node>\n     </pin>\n     <pin name='aodist'>\n
+    \     <node id='45' type='6'>\n       <attr name='value' type='8'>3 0 0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='alphashadows'>\n      <node id='46'
+    type='11'>\n       <attr name='value' type='1'>1</attr>\n      </node>\n     </pin>\n
+    \    <pin name='irradiance'>\n      <node id='47' type='11'>\n       <attr name='value'
+    type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='alphachannel'>\n
+    \     <node id='48' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='keep_environment'>\n      <node id='49'
+    type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='aiLight'>\n      <node id='50' type='11'>\n       <attr name='value'
+    type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='aiLightUpdate'>\n
+    \     <node id='51' type='11'>\n       <attr name='value' type='1'>1</attr>\n
+    \     </node>\n     </pin>\n     <pin name='globalLightIdMaskAction'>\n      <node
+    id='52' type='57'>\n       <attr name='value' type='2'>1</attr>\n      </node>\n
+    \    </pin>\n     <pin name='globalLightIdMask'>\n      <node id='53' type='132'>\n
+    \      <attr name='value' type='2'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='lightPassMask'>\n      <node id='54' type='132'>\n       <attr name='value'
+    type='2'>0</attr>\n      </node>\n     </pin>\n     <pin name='pathTermPower'>\n
+    \     <node id='55' type='6'>\n       <attr name='value' type='8'>0.30000001 0
+    0</attr>\n      </node>\n     </pin>\n     <pin name='coherentRatio'>\n      <node
+    id='56' type='6'>\n       <attr name='value' type='8'>0 0 0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='staticNoise'>\n      <node id='57' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='parallelSamples'>\n
+    \     <node id='58' type='9'>\n       <attr name='value' type='4'>16 0 0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='maxTileSamples'>\n      <node id='59'
+    type='9'>\n       <attr name='value' type='4'>32 0 0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='minimizeNetTraffic'>\n      <node id='60' type='11'>\n       <attr
+    name='value' type='1'>1</attr>\n      </node>\n     </pin>\n     <pin name='adaptiveSampling'>\n
+    \     <node id='61' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='noiseThreshold'>\n      <node id='62'
+    type='6'>\n       <attr name='value' type='8'>0.02 0 0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='minAdaptiveSamples'>\n      <node id='63' type='9'>\n
+    \      <attr name='value' type='4'>512 0 0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='adaptiveSamplingPixelGroup'>\n      <node id='64' type='57'>\n
+    \      <attr name='value' type='2'>2</attr>\n      </node>\n     </pin>\n     <pin
+    name='adaptiveSamplingExposure'>\n      <node id='65' type='6'>\n       <attr
+    name='value' type='8'>0 0 0</attr>\n      </node>\n     </pin>\n     <pin name='deepEnable'>\n
+    \     <node id='66' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='deepEnablePasses'>\n      <node id='67'
+    type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='maxDepthSamples'>\n      <node id='68' type='9'>\n       <attr
+    name='value' type='4'>8 0 0</attr>\n      </node>\n     </pin>\n     <pin name='depthTolerance'>\n
+    \     <node id='69' type='6'>\n       <attr name='value' type='8'>0.050000001
+    0 0</attr>\n      </node>\n     </pin>\n     <pin name='toonShadowAmbient'>\n
+    \     <node id='70' type='6'>\n       <attr name='value' type='8'>0.5 0.5 0.5</attr>\n
+    \     </node>\n     </pin>\n     <pin name='oldVolumeBehavior'>\n      <node id='71'
+    type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n
+    \   </node>\n   </pin>\n   <pin name='renderLayer'>\n    <node id='72' type='90'>\n
+    \    <pin name='enabled'>\n      <node id='73' type='11'>\n       <attr name='value'
+    type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='layerId'>\n      <node
+    id='74' type='9'>\n       <attr name='value' type='4'>1 0 0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='invert'>\n      <node id='75' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='mode'>\n
+    \     <node id='76' type='57'>\n       <attr name='value' type='2'>0</attr>\n
+    \     </node>\n     </pin>\n    </node>\n   </pin>\n   <pin name='renderPasses'>\n
+    \   <node id='77' type='86'>\n     <pin name='renderPassesRaw'>\n      <node id='78'
+    type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='renderPassEmit'>\n      <node id='79' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassEnvironment'>\n
+    \     <node id='80' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassDiffuse'>\n      <node id='81'
+    type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='renderPassDiffuseDirect'>\n      <node id='82' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassDiffuseIndirect'>\n
+    \     <node id='83' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassDiffuseFilter'>\n      <node
+    id='84' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassReflection'>\n      <node id='85' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassReflectionDirect'>\n      <node id='86' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassReflectionIndirect'>\n
+    \     <node id='87' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassReflectionFilter'>\n      <node
+    id='88' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassRefraction'>\n      <node id='89' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassRefractionFilter'>\n      <node id='90' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassTransmission'>\n
+    \     <node id='91' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassTransmissionFilter'>\n      <node
+    id='92' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassSSS'>\n      <node id='93' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassShadow'>\n      <node id='94' type='11'>\n       <attr name='value'
+    type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassIrradiance'>\n
+    \     <node id='95' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassLightDirection'>\n      <node
+    id='96' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassVolume'>\n      <node id='97' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassVolumeMask'>\n      <node id='98' type='11'>\n       <attr name='value'
+    type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassVolumeEmission'>\n
+    \     <node id='99' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassVolumeZDepthFront'>\n      <node
+    id='100' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassVolumeZDepthBack'>\n      <node id='101'
+    type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='renderPassNoise'>\n      <node id='102' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassDiffuseDirectDenoiserOutput'>\n
+    \     <node id='103' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassDiffuseIndirectDenoiserOutput'>\n
+    \     <node id='104' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassReflectionDirectDenoiserOutput'>\n
+    \     <node id='105' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassReflectionIndirectDenoiserOutput'>\n
+    \     <node id='106' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassEmissionDenoiserOutput'>\n
+    \     <node id='107' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassRemainderDenoiserOutput'>\n
+    \     <node id='108' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassVolumeDenoiserOutput'>\n
+    \     <node id='109' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassVolumeEmissionDenoiserOutput'>\n
+    \     <node id='110' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassPostProcessing'>\n      <node
+    id='111' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='postProcEnvironment'>\n      <node id='112' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassLayerShadows'>\n      <node id='113' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassLayerBlackShadows'>\n
+    \     <node id='114' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassLayerReflections'>\n      <node
+    id='115' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassAmbientLight'>\n      <node id='116' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassAmbientLightDirect'>\n      <node id='117' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassAmbientLightIndirect'>\n
+    \     <node id='118' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassSunLight'>\n      <node
+    id='119' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassSunLightDirect'>\n      <node id='120'
+    type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='renderPassSunLightIndirect'>\n      <node id='121' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassLight1'>\n      <node id='122' type='11'>\n       <attr name='value'
+    type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassLight1Direct'>\n
+    \     <node id='123' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassLight1Indirect'>\n      <node
+    id='124' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassLight2'>\n      <node id='125' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassLight2Direct'>\n      <node id='126' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassLight2Indirect'>\n
+    \     <node id='127' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassLight3'>\n      <node id='128'
+    type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='renderPassLight3Direct'>\n      <node id='129' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassLight3Indirect'>\n
+    \     <node id='130' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassLight4'>\n      <node id='131'
+    type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='renderPassLight4Direct'>\n      <node id='132' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassLight4Indirect'>\n
+    \     <node id='133' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassLight5'>\n      <node id='134'
+    type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='renderPassLight5Indirect'>\n      <node id='135' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassLight5Direct'>\n      <node id='136' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassLight6'>\n
+    \     <node id='137' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassLight6Direct'>\n      <node
+    id='138' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassLight6Indirect'>\n      <node id='139'
+    type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='renderPassLight7'>\n      <node id='140' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassLight7Direct'>\n
+    \     <node id='141' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassLight7Indirect'>\n      <node
+    id='142' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassLight8'>\n      <node id='143' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassLight8Direct'>\n      <node id='144' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassLight8Indirect'>\n
+    \     <node id='145' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassCryptomatteCount'>\n      <node
+    id='146' type='9'>\n       <attr name='value' type='4'>6 0 0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassCryptomatteSeedFactor'>\n      <node id='147'
+    type='9'>\n       <attr name='value' type='4'>10 0 0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='renderPassCryptomatteInstance'>\n      <node id='148' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassCryptomatteMaterialNodeName'>\n      <node id='149' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassCryptomatteMaterialNode'>\n      <node id='150' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassCryptomatteMaterialPinName'>\n
+    \     <node id='151' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassCryptomatteObjectNodeName'>\n
+    \     <node id='152' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassCryptomatteObjectNode'>\n
+    \     <node id='153' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassCryptomatteObjectPinName'>\n
+    \     <node id='154' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassInfoMaxSamples'>\n      <node
+    id='155' type='9'>\n       <attr name='value' type='4'>128 0 0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='samplingMode'>\n      <node id='156' type='57'>\n
+    \      <attr name='value' type='2'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='bump'>\n      <node id='157' type='11'>\n       <attr name='value' type='1'>1</attr>\n
+    \     </node>\n     </pin>\n     <pin name='opacity'>\n      <node id='158' type='6'>\n
+    \      <attr name='value' type='8'>1 0 0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='renderPassGeometricNormal'>\n      <node id='159' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassVertexNormal'>\n      <node id='160' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassShadingNormal'>\n
+    \     <node id='161' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassTangentNormal'>\n      <node
+    id='162' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassZDepth'>\n      <node id='163' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='Z_depth_max'>\n      <node id='164' type='6'>\n       <attr name='value'
+    type='8'>5 0 0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassPosition'>\n
+    \     <node id='165' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassUvCoord'>\n      <node id='166'
+    type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='UV_max'>\n      <node id='167' type='6'>\n       <attr name='value'
+    type='8'>1 0 0</attr>\n      </node>\n     </pin>\n     <pin name='uvSet'>\n      <node
+    id='168' type='9'>\n       <attr name='value' type='4'>1 0 0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassTangentU'>\n      <node id='169' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassMotionVector'>\n      <node id='170' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='maxSpeed'>\n
+    \     <node id='171' type='6'>\n       <attr name='value' type='8'>1 0 0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassMaterialId'>\n      <node
+    id='172' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassObjectId'>\n      <node id='173' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassObjectLayerColor'>\n      <node id='174' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassBakingGroupId'>\n
+    \     <node id='175' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassLightPassId'>\n      <node
+    id='176' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassRenderLayerId'>\n      <node id='177' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassRenderLayerMask'>\n      <node id='178' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassWireframe'>\n
+    \     <node id='179' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassAmbientOcclusion'>\n      <node
+    id='180' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='aodist'>\n      <node id='181' type='6'>\n       <attr
+    name='value' type='8'>3 0 0</attr>\n      </node>\n     </pin>\n     <pin name='aoAlphaShadows'>\n
+    \     <node id='182' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassOpacity'>\n      <node id='183'
+    type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='renderPassRoughness'>\n      <node id='184' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='renderPassIor'>\n
+    \     <node id='185' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='renderPassDiffuseFilterInfo'>\n      <node
+    id='186' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='renderPassReflectionFilterInfo'>\n      <node id='187'
+    type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='renderPassRefractionFilterInfo'>\n      <node id='188' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='renderPassTransmissionFilterInfo'>\n      <node id='189' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n    </node>\n   </pin>\n
+    \  <pin name='imager'>\n    <node id='190' type='15'>\n     <pin name='exposure'>\n
+    \     <node id='191' type='6'>\n       <attr name='value' type='8'>1 0 0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='highlightCompression'>\n      <node
+    id='192' type='6'>\n       <attr name='value' type='8'>0 0 0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='order'>\n      <node id='193' type='57'>\n       <attr
+    name='value' type='2'>0</attr>\n      </node>\n     </pin>\n     <pin name='response'>\n
+    \     <node id='194' type='57'>\n       <attr name='value' type='2'>401</attr>\n
+    \     </node>\n     </pin>\n     <pin name='neutralResponse'>\n      <node id='195'
+    type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='gamma'>\n      <node id='196' type='6'>\n       <attr name='value'
+    type='8'>1 0 0</attr>\n      </node>\n     </pin>\n     <pin name='white_balance'>\n
+    \     <node id='197' type='33'>\n       <attr name='value' type='8'>1 1 1</attr>\n
+    \     </node>\n     </pin>\n     <pin name='vignetting'>\n      <node id='198'
+    type='6'>\n       <attr name='value' type='8'>0 0 0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='saturation'>\n      <node id='199' type='6'>\n       <attr name='value'
+    type='8'>1 0 0</attr>\n      </node>\n     </pin>\n     <pin name='hotpixel_removal'>\n
+    \     <node id='200' type='6'>\n       <attr name='value' type='8'>1 0 0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='premultiplied_alpha'>\n      <node
+    id='201' type='11'>\n       <attr name='value' type='1'>0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='disablePartialAlpha'>\n      <node id='202' type='11'>\n
+    \      <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin
+    name='dithering'>\n      <node id='203' type='11'>\n       <attr name='value'
+    type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='saturate_to_white'>\n
+    \     <node id='204' type='6'>\n       <attr name='value' type='8'>0 0 0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='min_display_samples'>\n      <node
+    id='205' type='9'>\n       <attr name='value' type='4'>1 0 0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='maxTonemapInterval'>\n      <node id='206' type='9'>\n
+    \      <attr name='value' type='4'>10 0 0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='denoiser'>\n      <node id='207' type='11'>\n       <attr name='value'
+    type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='denoiseVolume'>\n
+    \     <node id='208' type='11'>\n       <attr name='value' type='1'>0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='denoiserOnce'>\n      <node id='209'
+    type='11'>\n       <attr name='value' type='1'>1</attr>\n      </node>\n     </pin>\n
+    \    <pin name='minDenoiserSamples'>\n      <node id='210' type='9'>\n       <attr
+    name='value' type='4'>10 0 0</attr>\n      </node>\n     </pin>\n     <pin name='maxDenoiserInterval'>\n
+    \     <node id='211' type='9'>\n       <attr name='value' type='4'>20 0 0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='denoiserOriginalBlend'>\n      <node
+    id='212' type='6'>\n       <attr name='value' type='8'>0 0 0</attr>\n      </node>\n
+    \    </pin>\n    </node>\n   </pin>\n   <pin name='postproc'>\n    <node id='213'
+    type='61'>\n     <pin name='on_off'>\n      <node id='214' type='11'>\n       <attr
+    name='value' type='1'>0</attr>\n      </node>\n     </pin>\n     <pin name='bloom_power'>\n
+    \     <node id='215' type='6'>\n       <attr name='value' type='8'>1 0 0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='glare_power'>\n      <node id='216'
+    type='6'>\n       <attr name='value' type='8'>1 0 0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='glare_ray_amount'>\n      <node id='217' type='9'>\n       <attr
+    name='value' type='4'>3 0 0</attr>\n      </node>\n     </pin>\n     <pin name='glare_angle'>\n
+    \     <node id='218' type='6'>\n       <attr name='value' type='8'>15 0 0</attr>\n
+    \     </node>\n     </pin>\n     <pin name='glare_blur'>\n      <node id='219'
+    type='6'>\n       <attr name='value' type='8'>0.001 0 0</attr>\n      </node>\n
+    \    </pin>\n     <pin name='spectral_intensity'>\n      <node id='220' type='6'>\n
+    \      <attr name='value' type='8'>0 0 0</attr>\n      </node>\n     </pin>\n
+    \    <pin name='spectral_shift'>\n      <node id='221' type='6'>\n       <attr
+    name='value' type='8'>2 0 0</attr>\n      </node>\n     </pin>\n    </node>\n
+    \  </pin>\n  </node>\n </graph>\n</OCS2>\n"
+--- !u!114 &1461541183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1109777992, guid: f654ca2983870b74ea8b9a258e509846, type: 3}
+  m_Name: (Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  mValue: 1
+--- !u!114 &1623016937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1567694750, guid: f654ca2983870b74ea8b9a258e509846, type: 3}
+  m_Name: (Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  mValue: 1
+--- !u!114 &1771506253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -856716899, guid: f654ca2983870b74ea8b9a258e509846, type: 3}
+  m_Name: (Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  mValue: 2
+--- !u!114 &2049550294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -856716899, guid: f654ca2983870b74ea8b9a258e509846, type: 3}
+  m_Name: (Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  mValue: 0
+--- !u!1001 &2069804407
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4031181049422930, guid: 01cb722b4b4fadc49ac00365976c42bf, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031181049422930, guid: 01cb722b4b4fadc49ac00365976c42bf, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031181049422930, guid: 01cb722b4b4fadc49ac00365976c42bf, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031181049422930, guid: 01cb722b4b4fadc49ac00365976c42bf, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031181049422930, guid: 01cb722b4b4fadc49ac00365976c42bf, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031181049422930, guid: 01cb722b4b4fadc49ac00365976c42bf, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -3.637979e-12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031181049422930, guid: 01cb722b4b4fadc49ac00365976c42bf, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031181049422930, guid: 01cb722b4b4fadc49ac00365976c42bf, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114940730716160174, guid: 01cb722b4b4fadc49ac00365976c42bf,
+        type: 2}
+      propertyPath: PbrRenderTargetPrefab
+      value: 
+      objectReference: {fileID: 500993183}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 01cb722b4b4fadc49ac00365976c42bf, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!114 &2145926902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -389710016, guid: f654ca2983870b74ea8b9a258e509846, type: 3}
+  m_Name: (Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  mValue: {x: 1, y: 1}
